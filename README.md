@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madhuri Robotic Automation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Madhuri Robotic Automation</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <h2>Smart Solutions for Modern Industry</h2>
+    <p>We specialize in automation, fabrication, and custom engineering work.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a Hyderabad-based company providing cutting-edge robotic and automation services including MS Fabrication, CNC cutting, and polycarbonate sheet works.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>MS Fabrication & Sheds</li>
+      <li>Polycarbonate Sheet Roofing</li>
+      <li>CNC Laser Cutting & Bending</li>
+      <li>FRP Panels & False Ceiling</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: madhuri.roboticautomation@gmail.com</p>
+    <p>Phone: 9391008538</p>
+    <p>Address: 13-6-421/A/21, Kanakadurga Colony, Karwan Road, Hyderabad</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Madhuri Robotic Automation. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  background: url('https://source.unsplash.com/1600x600/?factory,technology') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  background: white;
+  margin: 1rem 0;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
